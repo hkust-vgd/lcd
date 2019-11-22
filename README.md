@@ -4,7 +4,7 @@ This is the official PyTorch implementation of the following publication.
 
 > **LCD: Learned Cross-domain Descriptors for 2D-3D Matching**<br/>
 > Quang-Hieu Pham, Mikaela Angelina Uy, Binh-Son Hua, Duc Thanh Nguyen, Gemma Roig, Sai-Kit Yeung<br/>
-> *AAAI Conference on Artificial Intelligence (CVPR), 2020* (**Oral**)<br/>
+> *AAAI Conference on Artificial Intelligence, 2020* (**Oral**)<br/>
 > [Paper](https://arxiv.org/pdf/1911.09326.pdf),
 > [Homepage](https://hkust-vgd.github.io/lcd/)
 
