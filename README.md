@@ -16,7 +16,7 @@ Required PyTorch 1.2 or newer. Some other dependencies are:
 Coming soon!
 
 ## Usage
-## Pre-trained models
+### Pre-trained models
 Coming soon!
 
 ### Training
