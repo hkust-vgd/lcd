@@ -1,0 +1,19 @@
+{
+    "root": "data",
+    "device": "cuda",
+    "epochs": 250,
+    "batch_size": 64,
+    "num_workers": 8,
+    "input_channels": 6,
+    "output_channels": 6,
+    "embedding_size": 256,
+    "normalize": true,
+    "margin": 0.2,
+    "hardest": true,
+    "learning_rate": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 1.0
+}
