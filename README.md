@@ -40,7 +40,7 @@ For more information, use the `--help` option.
 After aligning two input point clouds, the final registration result will be shown. For example:
 
 <p align="center">
-  <img src="https://github.com/hkust-vgd/blob/master/assets/aligned.png?raw=true" alt="Aligned point clouds"/>
+  <img src="https://github.com/hkust-vgd/lcd/blob/master/assets/aligned.png?raw=true" alt="Aligned point clouds"/>
 </p>
 
 > **Note**: This demo requires Open3D installed.
