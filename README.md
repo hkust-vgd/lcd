@@ -11,24 +11,39 @@ This is the official PyTorch implementation of the following publication.
 ## Prerequisites
 Required PyTorch 1.2 or newer. Some other dependencies are:
 - h5py
-- Open3D
+- [Open3D](http://www.open3d.org/)
 
 ## 2D-3D Match Dataset
 Coming soon!
 
 ## Usage
 ### Pre-trained models
-Coming soon!
+We released three pre-trained LCD models with different descriptor size: LCD-D256, LCD-D128, and LCD-D64.
+All of the models can be found in the `logs` folder.
 
 ### Training
 To train a model on the 2D-3D Match dataset:
 
-    python train.py --config config.json --logdir logs/LCD
+    $ python train.py --config config.json --logdir logs/LCD
 
 Log files and network parameters will be saved to the `logs/LCD` folder.
 
-### Applications
-Coming soon!
+### Demos
+#### Aligning two point clouds with LCD
+This demo aligns two 3D colored point clouds using our pre-trained LCD descriptor with RANSAC.
+How to run:
+
+    $ python -m apps.align_point_cloud samples/000.ply samples/002.ply --logdir logs/LCD-D256/
+
+For more information, use the `--help` option.
+
+After aligning two input point clouds, the final registration result will be shown. For example:
+
+<p align="center">
+  <img src="https://github.com/hkust-vgd/blob/master/assets/aligned.png?raw=true" alt="Aligned point clouds"/>
+</p>
+
+> **Note**: This demo requires Open3D installed.
 
 ### Prepare your own dataset
 Coming soon!
