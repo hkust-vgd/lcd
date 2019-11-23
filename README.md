@@ -1,22 +1,21 @@
 # LCD: Learned Cross-domain Descriptors for 2D-3D Matching
 
-This is the official PyTorch implementation of the following publication.
+This is the official PyTorch implementation of the following publication:
 
 > **LCD: Learned Cross-domain Descriptors for 2D-3D Matching**<br/>
 > Quang-Hieu Pham, Mikaela Angelina Uy, Binh-Son Hua, Duc Thanh Nguyen, Gemma Roig, Sai-Kit Yeung<br/>
 > *AAAI Conference on Artificial Intelligence, 2020* (**Oral**)<br/>
-> [Paper](https://arxiv.org/pdf/1911.09326.pdf),
-> [Homepage](https://hkust-vgd.github.io/lcd/)
-
-## Prerequisites
-Required PyTorch 1.2 or newer. Some other dependencies are:
-- h5py
-- [Open3D](http://www.open3d.org/)
+> [**Paper**](https://arxiv.org/pdf/1911.09326.pdf) | [**Homepage**](https://hkust-vgd.github.io/lcd/)
 
 ## 2D-3D Match Dataset
 Coming soon!
 
 ## Usage
+### Prerequisites
+Required PyTorch 1.2 or newer. Some other dependencies are:
+- h5py
+- [Open3D](http://www.open3d.org/)
+
 ### Pre-trained models
 We released three pre-trained LCD models with different descriptor size: LCD-D256, LCD-D128, and LCD-D64.
 All of the models can be found in the `logs` folder.
@@ -28,7 +27,7 @@ To train a model on the 2D-3D Match dataset:
 
 Log files and network parameters will be saved to the `logs/LCD` folder.
 
-### Demos
+### Applications
 #### Aligning two point clouds with LCD
 This demo aligns two 3D colored point clouds using our pre-trained LCD descriptor with RANSAC.
 How to run:
