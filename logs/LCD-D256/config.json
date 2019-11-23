@@ -1,0 +1,16 @@
+{
+    "embedding_size": 256,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "num_workers": 8,
+    "epochs": 100,
+    "normalize": true,
+    "root": "data/3dmatch",
+    "momentum": 0.9,
+    "device": "cuda",
+    "margin": 0.2,
+    "output_channels": 6,
+    "weight_decay": 0.0005,
+    "input_channels": 6,
+    "hardest": true
+}

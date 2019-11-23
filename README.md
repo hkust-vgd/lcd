@@ -11,6 +11,7 @@ This is the official PyTorch implementation of the following publication.
 ## Prerequisites
 Required PyTorch 1.2 or newer. Some other dependencies are:
 - h5py
+- Open3D
 
 ## 2D-3D Match Dataset
 Coming soon!
