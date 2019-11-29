@@ -12,16 +12,16 @@ This is the official PyTorch implementation of the following publication:
 
 We collect a new dataset of 2D-3D correspondences by leveraging the
 availability of several 3D datasets from RGB-D scans. Specifically, we use the
-data from SceneNN and 3DMatch. Our training dataset consists of 110 RGB-D
-scans, of which 56 scenes are from SceneNN and 54 scenes are from 3DMatch.  The
-2D-3D correspondence data is generated as follows. Given a 3D point which is
-randomly sampled from a 3D point cloud, we extract a set of 3D patches from
-different scanning views.  To find a 2D-3D correspondence, for each 3D patch,
-we re-project its 3D position into all RGB-D frames for which the point lies in
-the camera frustum, taking occlusion into account. We then extract the
-corresponding local 2D patches around the re-projected point. In total, we
-collected around 1.4 millions 2D-3D correspondences, with varying lighting
-conditions and settings.
+data from [SceneNN](http://scenenn.net/) and [3DMatch](http://3dmatch.cs.princeton.edu/).
+Our training dataset consists of 110 RGB-D scans, of which 56 scenes are from
+SceneNN and 54 scenes are from 3DMatch.  The 2D-3D correspondence data is
+generated as follows. Given a 3D point which is randomly sampled from a 3D
+point cloud, we extract a set of 3D patches from different scanning views.  To
+find a 2D-3D correspondence, for each 3D patch, we re-project its 3D position
+into all RGB-D frames for which the point lies in the camera frustum, taking
+occlusion into account. We then extract the corresponding local 2D patches
+around the re-projected point. In total, we collected around **1.4 millions**
+2D-3D correspondences.
 
 ## Usage
 ### Prerequisites
