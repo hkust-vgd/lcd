@@ -13,7 +13,7 @@ class CrossTripletDataset(data.Dataset):
         self.metadata = {}
         self.cache = {}
         self.cache_size = cache_size
-        self.flist = os.path.join(root, split, "*.h5")
+        self.flist = os.path.join(root, "*.h5")
         self.flist = sorted(glob.glob(self.flist))
         for fname in self.flist:
             self._add_metadata(fname)

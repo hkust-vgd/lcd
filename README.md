@@ -34,7 +34,7 @@ We released three pre-trained LCD models with different descriptor size: LCD-D25
 All of the models can be found in the `logs` folder.
 
 ### Training
-After downloading our dataset, put all of the hdf5 files into the `data/train` folder.
+After downloading our dataset, put all of the hdf5 files into the `data` folder.
 
 To train a model on the 2D-3D Match dataset, use the following command:
 
