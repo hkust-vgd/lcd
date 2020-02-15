@@ -72,7 +72,21 @@ If you find our work useful for your research, please consider citing:
       year = 2020
     }
 
-Please also cite the [3DMatch](http://3dmatch.cs.princeton.edu/) paper if you use our dataset.
+If you use our dataset, please cite the following papers:
+
+    @inproceedings{hua2016scenenn,
+      title = {{SceneNN}: {A} scene meshes dataset with a{NN}otations},
+      author = {Hua, Binh-Son, and Pham, Quang-Hieu and Nguyen, Duc Thanh and Tran, Minh-Khoi and Yu, Lap-Fai and Yeung, Sai-Kit},
+      booktitle = {International Conference on 3D Vision},
+      year = 2016
+    }
+    
+    @inproceedings{zeng20173dmatch,
+      title = {{3DMatch}: {L}earning local geometric descriptors from {RGB}-{D} reconstructions},
+      author= {Zeng, Andy and Song, Shuran and Nie{\ss}ner, Matthias and Fisher, Matthew and Xiao, Jianxiong and Funkhouser, Thomas},
+      booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+      year = 2017
+    }
 
 ## License
 Our code is released under BSD 3-Clause license (see [LICENSE](LICENSE) for more details).
