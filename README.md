@@ -60,7 +60,10 @@ After aligning two input point clouds, the final registration result will be sho
 > **Note**: This demo requires Open3D installed.
 
 ### Prepare your own dataset
-Coming soon!
+We provide two scripts that we found useful during our data processing.
+Please take a look and adopt it to your need.
+- `scripts/sample_train.py`: Sample 2D-3D correspondences from the 3DMatch dataset
+- `scripts/convert_valtest.py`: Convert the `val-set.mat` and `test-set.mat` files from 3DMatch into HDF5 format.
 
 ## Citation
 If you find our work useful for your research, please consider citing:
@@ -80,7 +83,7 @@ If you use our dataset, please cite the following papers:
       booktitle = {International Conference on 3D Vision},
       year = 2016
     }
-    
+
     @inproceedings{zeng20173dmatch,
       title = {{3DMatch}: {L}earning local geometric descriptors from {RGB}-{D} reconstructions},
       author= {Zeng, Andy and Song, Shuran and Nie{\ss}ner, Matthias and Fisher, Matthew and Xiao, Jianxiong and Funkhouser, Thomas},
