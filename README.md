@@ -8,7 +8,7 @@ This is the official PyTorch implementation of the following publication:
 > [**Paper**](https://arxiv.org/pdf/1911.09326.pdf) | [**Homepage**](https://hkust-vgd.github.io/lcd/) | [**Video**](https://www.youtube.com/watch?v=sMEmqfjLDZw)
 
 ## 2D-3D Match Dataset
-[**Download**](http://103.24.77.34/2d3dmatch/)
+[**Download**](http://hkust-vgd.ust.hk/2d3dmatch/)
 
 We collect a new dataset of 2D-3D correspondences by leveraging the
 availability of several 3D datasets from RGB-D scans. Specifically, we use the
